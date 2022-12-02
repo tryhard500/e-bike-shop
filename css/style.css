@@ -391,3 +391,56 @@ footer {
   transform: translateY(-25px);
 }
 
+.regist {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 20px auto;
+  user-select: none;
+}
+
+.reg-ref {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  transition: transform 500ms;
+}
+
+.regist a {
+  background-color: #85b1aa;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+}
+
+.regist .reg-ref:active {
+  transform:scale(0.9);
+}
+
+.head-text {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  padding: 30px;
+}
+
+
+.container {
+  max-width: 1000px;
+  user-select: none;
+  margin-top: 50px;
+  margin: 20px auto;
+  padding: 0 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+}
